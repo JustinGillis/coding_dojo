@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Dissapearing Ninja</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $('img').click(function(){
+                $(this).hide();
+            });
+
+            $('button').click(function(){
+                $('img').show();
+            });
+            
+        });
+    </script>
+    
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Assignment: Disappearing Ninja</h1>
+        <img src="ffxiv.png" alt="Final Fantasy XIV Online logo">
+        <img src="ffxiv.png" alt="Final Fantasy XIV Online logo">
+        <img src="ffxiv.png" alt="Final Fantasy XIV Online logo">
+        <img src="ffxiv.png" alt="Final Fantasy XIV Online logo">
+        <img src="ffxiv.png" alt="Final Fantasy XIV Online logo">
+        <img src="ffxiv.png" alt="Final Fantasy XIV Online logo">
+        <img src="ffxiv.png" alt="Final Fantasy XIV Online logo">
+        <img src="ffxiv.png" alt="Final Fantasy XIV Online logo">
+        <button>Restore</button>
+    </div>
+</body>
+</html>
